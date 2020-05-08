@@ -1,7 +1,6 @@
 package co.com.pruebadoctus.stepdefinitions;
 
 import co.com.pruebadoctus.interactions.StartSesion;
-import co.com.pruebadoctus.questions.Register;
 import co.com.pruebadoctus.questions.StartSesionFail;
 import co.com.pruebadoctus.tasks.OpenTheBrowser;
 import cucumber.api.java.Before;
