@@ -1,5 +1,6 @@
 package co.com.pruebadoctus.questions;
 
+import co.com.pruebadoctus.user_interfaces.EunoHome;
 import co.com.pruebadoctus.user_interfaces.RegisterPage;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Question;
@@ -10,8 +11,8 @@ public class StartSesionFail implements Question<String> {
 
     @Override
     public String answeredBy(Actor actor) {
-        mensaje = RegisterPage.RESULT_MESSAGE.resolveFor(actor).getText();
-
+        mensaje = EunoHome.EXPECTED_MESSAGE_LOGIN.resolveFor(actor).getText();
+        System.out.println("Este es el mensaje capturado: " + mensaje);
         return mensaje;
     }
 

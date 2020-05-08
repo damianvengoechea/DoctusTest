@@ -11,7 +11,7 @@ public class Register implements Question<String> {
     @Override
     public String answeredBy(Actor actor) {
         mensaje = RegisterPage.RESULT_MESSAGE.resolveFor(actor).getText();
-        System.out.println("Este es el mensaje capturado" + mensaje);
+        System.out.println("Este es el mensaje capturado: " + mensaje);
         return mensaje;
     }
 

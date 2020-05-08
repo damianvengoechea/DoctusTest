@@ -6,5 +6,5 @@ Feature: Start sesion on the EUNO platform.
   Scenario: wrong email and password
     Given that Damian is on the page euno
     When start sesion with email ldsdamian@hotmail.com, pass 123456789
-    Then the reply message will be Usuario o contraseña inválidos
+    Then the reply message will be Usuario o contraseña invalidos
 

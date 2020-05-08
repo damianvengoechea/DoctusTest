@@ -1,7 +1,6 @@
 package co.com.pruebadoctus.interactions;
 
 import co.com.pruebadoctus.user_interfaces.RegisterPage;
-import co.com.pruebadoctus.utils.Constant;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Interaction;
 import net.serenitybdd.screenplay.actions.Click;
@@ -40,7 +39,6 @@ public class RegisterUser implements Interaction {
         actor.attemptsTo(Click.on(RegisterPage.CHK_I_AGREE));
         actor.attemptsTo(Click.on(RegisterPage.BTN_LOGIN));
         actor.attemptsTo(WaitUntil.the(RegisterPage.RESULT_MESSAGE, isVisible()).forNoMoreThan(5).seconds());
-
     }
 
     public static RegisterUser DataRegister(String nombre, String apellido, String documento, String email, String password) {

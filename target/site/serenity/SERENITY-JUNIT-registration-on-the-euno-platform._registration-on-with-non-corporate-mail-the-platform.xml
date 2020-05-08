@@ -1,4 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Registration on the EUNO platform." skipped="0" tests="1" time="47.19" timestamp="2020-05-08 12:01:18"><testcase name="Registration on with non-corporate mail the platform"><failure message="Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">Expected enabled element was not enabled</failure><system-err>Expected enabled element was not enabled&#13;
-co.com.pruebadoctus.stepdefinitions.RegistroEunoStepDefinitions.thatDamianIsOnThePageEunoTheRegister(RegistroEunoStepDefinitions.java:34)&#13;
-cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
-</system-err></testcase></testsuite>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Registration on the EUNO platform." skipped="0" tests="1" time="13.63" timestamp="2020-05-08 07:04:38"><testcase name="Registration on with non-corporate mail the platform"/></testsuite>
